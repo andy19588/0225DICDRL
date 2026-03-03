@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="梁仲龍 — Personal Website">
+    <title>梁仲龍 — Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">梁仲龍</a>
+            <ul class="nav-links">
+                <li><a href="#hero">首頁</a></li>
+                <li><a href="#about">關於</a></li>
+                <li><a href="#time">時間</a></li>
+                <li><a href="#contact">聯繫</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="grain-overlay"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">WELCOME</p>
+            <h1 class="hero-title">
+                <span class="title-line line-1">梁仲龍</span>
+            </h1>
+            <p class="hero-subtitle">A website makes it real.</p>
+            <div class="hero-cta">
+                <a href="#about" class="btn btn-primary">探索更多</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <section class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>DESIGN</span>
+                <span class="dot">✦</span>
+                <span>CREATE</span>
+                <span class="dot">✦</span>
+                <span>INSPIRE</span>
+                <span class="dot">✦</span>
+                <span>BUILD</span>
+                <span class="dot">✦</span>
+                <span>DREAM</span>
+                <span class="dot">✦</span>
+                <span>DESIGN</span>
+                <span class="dot">✦</span>
+                <span>CREATE</span>
+                <span class="dot">✦</span>
+                <span>INSPIRE</span>
+                <span class="dot">✦</span>
+                <span>BUILD</span>
+                <span class="dot">✦</span>
+                <span>DREAM</span>
+                <span class="dot">✦</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-label">
+                    <span class="label-number">01</span>
+                    <span class="label-text">關於我</span>
+                </div>
+                <div class="section-content">
+                    <h2 class="section-title fade-in">每一個偉大的旅程<br>都始於一個願景</h2>
+                    <p class="section-description fade-in">
+                        你好，我是梁仲龍。我相信設計的力量可以改變世界，
+                        每一個像素都承載著意義。在數位與現實的交匯處，
+                        我致力於創造有意義的體驗。
+                    </p>
+                    <div class="stats-grid fade-in">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="∞">∞</span>
+                            <span class="stat-label">可能性</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">熱情</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">靈感</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Time Section -->
+    <section class="time-section" id="time">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-label">
+                    <span class="label-number">02</span>
+                    <span class="label-text">此刻</span>
+                </div>
+                <div class="section-content">
+                    <h2 class="section-title fade-in">活在當下</h2>
+                    <div class="time-display fade-in">
+                        <div class="time-main" id="current-time">--:--:--</div>
+                        <div class="time-date" id="current-date">----年--月--日</div>
+                        <div class="time-day" id="current-day">星期-</div>
+                    </div>
+                    <div class="time-quote fade-in">
+                        <p>"時間是我們最寶貴的資源。<br>珍惜每一刻，活出精彩。"</p>
+                    </div>
+                    <!-- Analog Clock -->
+                    <div class="clock-container fade-in">
+                        <div class="analog-clock">
+                            <div class="clock-face">
+                                <div class="clock-tick tick-12"></div>
+                                <div class="clock-tick tick-3"></div>
+                                <div class="clock-tick tick-6"></div>
+                                <div class="clock-tick tick-9"></div>
+                                <div class="hand hour-hand" id="hour-hand"></div>
+                                <div class="hand minute-hand" id="minute-hand"></div>
+                                <div class="hand second-hand" id="second-hand"></div>
+                                <div class="clock-center"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <p class="contact-eyebrow fade-in">GET IN TOUCH</p>
+                <h2 class="contact-title fade-in">讓我們一起<br>創造精彩</h2>
+                <a href="mailto:hello@example.com" class="btn btn-outline fade-in">聯絡我 →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <span class="footer-name">© 2026 梁仲龍</span>
+                <span class="footer-tagline">A website makes it real.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
