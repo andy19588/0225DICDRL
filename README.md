@@ -6,6 +6,22 @@ A sleek, Squarespace-inspired single-page personal website built with pure HTML,
 
 ---
 
+## 📸 Screenshots
+
+### Hero Section
+![Hero Section](screenshots/hero.png)
+
+### About Section (關於我)
+![About Section](screenshots/about.png)
+
+### Live Clock (此刻)
+![Time Section](screenshots/time.png)
+
+### Contact Section (聯繫)
+![Contact Section](screenshots/contact.png)
+
+---
+
 ## ✨ Features
 
 | Feature | Description |
@@ -25,10 +41,15 @@ A sleek, Squarespace-inspired single-page personal website built with pure HTML,
 
 ```
 L2/
-├── index.html   # Page structure & semantic HTML
-├── style.css    # Design system, animations & responsive layout
-├── script.js    # Live clock, scroll effects & smooth navigation
-└── README.md    # This file
+├── index.html        # Page structure & semantic HTML
+├── style.css         # Design system, animations & responsive layout
+├── script.js         # Live clock, scroll effects & smooth navigation
+├── README.md         # This file
+└── screenshots/      # Website screenshots
+    ├── hero.png
+    ├── about.png
+    ├── time.png
+    └── contact.png
 ```
 
 ---
